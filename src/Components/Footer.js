@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer-content">
         <div className="footer-section">
           <h3>Contact Us</h3>
@@ -27,7 +27,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2025 Food Bank. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Food Bank. All rights reserved.</p>
       </div>
     </footer>
   );
