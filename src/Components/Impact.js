@@ -2,7 +2,7 @@ import React from 'react';
 
 function Impact() {
   return (
-    <section className="impact-section">
+    <section className="impact-section" id="impact">
       <h2>Our Impact</h2>
       <div className="stats-container">
         <div className="stat-box">
